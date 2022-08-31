@@ -6,10 +6,19 @@ h2{
     background-color: black;
 }
 
+.Cabeza{
+    color: red;
+    text-align: center;
+    border: 6px solid purple;
+    padding: 20%;
+    height: 40px;
+
+    font-size: 60px;
+}
 
 p{
     color: black;
     text-align: center;
     border: 5px solid red;
-}
+    }
 
