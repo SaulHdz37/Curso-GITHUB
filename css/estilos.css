@@ -44,3 +44,24 @@ padding: 15px;
 
 
 }
+
+footer{
+
+    width:60%;
+	height: 500px;
+	background: blue;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(202, 75%, 75%, 0.886),  hsla(202, 84%, 57%, 0.886)), url(Logo1.png);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(202, 75%, 75%, 0.886),  hsla(202, 84%, 57%, 0.886)), url(Logo1.png);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size:auto;
+	background-attachment:fixed;
+	position:relative;
+   display: flex;
+   flex-direction: column;
+   text-decoration: underline;
+   padding: 30px;
+   border-radius: 70%;
+   border: 5px solid black;
+   text-align: center;
+   justify-content: space-evenly;
+   
+}
